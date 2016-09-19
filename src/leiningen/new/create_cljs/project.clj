@@ -2,7 +2,8 @@
   :license {:name "Mozilla Public License 2.0" :url "https://www.mozilla.org/en-US/MPL/2.0/"}
 
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.229"]]
+                 [org.clojure/clojurescript "1.9.229"]{{#rum?}}
+                 [rum "0.10.6"]{{/rum?}}]
 
   :profiles {:dev {:dependencies [[figwheel-sidecar "0.5.4-7"]]}}
 
