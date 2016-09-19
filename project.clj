@@ -1,4 +1,4 @@
-(defproject create-cljs/lein-template "1.0.1"
+(defproject create-cljs/lein-template "1.1.0"
   :description "A Leiningen ClojureScript template"
   :url "https://github.com/roman01la/create-cljs"
   :license {:name "Eclipse Public License"
