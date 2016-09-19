@@ -28,6 +28,8 @@
                       :compiler {:main {{name}}.core
                                  :optimizations :advanced
                                  :output-to "resources/public/js/bundle.js"
-                                 :pretty-print false}}}}
+                                 :parallel-build true
+                                 :pretty-print false
+                                 :compiler-stats true}}}}
 
   :figwheel {:css-dirs ["resources/public/css"]})
